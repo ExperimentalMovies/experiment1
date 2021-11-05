@@ -12,8 +12,13 @@ namespace test1.Controllers
         {
             return View();
         }
+        public ActionResult Create()
+        {
+            ViewBag.Message = "Creating a data set.";
 
-        public ActionResult About()
+            return View();
+
+            public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
