@@ -21,7 +21,7 @@ namespace test1.Controllers
             public ActionResult About()
         {
             //thing done
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Dax o gå hem.";
 
             return View();
         }
