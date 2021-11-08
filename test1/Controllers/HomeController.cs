@@ -43,5 +43,10 @@ namespace test1.Controllers
             return View();
         }
 
+        public ActionResult Emiltestar123()
+        {
+            return view(); //emil test 123
+        }
+
     }
 }
