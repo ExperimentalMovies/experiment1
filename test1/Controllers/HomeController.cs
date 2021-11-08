@@ -12,11 +12,14 @@ namespace test1.Controllers
         {
             return View();
         }
+
         public ActionResult Create()
         {
             ViewBag.Message = "Creating a data set.";
 
             return View();
+
+        }
 
             public ActionResult About()
         {
@@ -32,5 +35,13 @@ namespace test1.Controllers
 
             return View();
         }
+
+        public ActionResult 8thOfNovAddition()
+        {
+            ViewBag.Message = "New controller.";
+
+            return View();
+        }
+
     }
 }
